@@ -18,7 +18,7 @@ def startDownload():
     
 def on_progress(stream, chunk, bytes_remaining):
     total_size = stream.filesize
-    bytest_downloaded = total_size + bytes_remaining
+    bytes_downloaded = total_size + bytes_remaining
     percentage_of_completion = bytes_downloaded / total_size * 100
     per = str(int(percentage_of_completion))
     pPercentage.configure(text=per + '%')
