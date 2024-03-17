@@ -44,6 +44,8 @@ For this project, I am using different resources like W3school, stackoverflow, Y
 
 
 ### Library installations
+- pip install tkinter
+- pip install customtkinter==0.3
 - pip install pytube
 
 ## Built with
